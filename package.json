@@ -18,10 +18,10 @@
     "test": "standard"
   },
   "dependencies": {
-    "yankee": "1.0.8"
+    "@postman/yankee": "^1.1.0"
   },
   "devDependencies": {
-    "standard": "14.3.4"
+    "standard": "^16.0.3"
   },
   "engines": {
     "node": ">=10"

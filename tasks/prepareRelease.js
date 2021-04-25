@@ -1,4 +1,4 @@
-const yankee = require('yankee')
+const yankee = require('@postman/yankee')
 
 module.exports = async function prepareRelease (exec, console, { preReleaseSuffix }) {
   console.warn('Preparing for release...')
