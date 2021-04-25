@@ -28,6 +28,8 @@ module.exports = async (options = {}) => {
     options.preReleaseSuffix = options.preReleaseSuffix.toLowerCase()
   }
 
+  options.mainBranch = options.mainBranch || 'master'
+
   await cleanDirectory(options)
   await pullChanges(options)
   await validateDependencies(options)

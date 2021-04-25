@@ -6,6 +6,7 @@ Automate versioning and changelog generation using GitFlow.
 const shipit = require('@postman/shipit')
 
 shipit({
+  mainBranch: 'main',
   pushToOrigin: false,
   preReleaseSuffix: 'beta',
   dependencyList: ['postman-collection']
