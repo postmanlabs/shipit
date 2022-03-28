@@ -18,4 +18,6 @@ module.exports = async function validateDependencies (exec, console, { dependenc
       throw new Error(`Expected "${dependency}" to be v${latestVersion} but found v${installedVersion}.`)
     }
   }
+
+  await exec('npm audit --production')
 }
