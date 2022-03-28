@@ -21,7 +21,7 @@
     "@postman/yankee": "^1.1.0"
   },
   "devDependencies": {
-    "standard": "^16.0.3"
+    "standard": "^16.0.4"
   },
   "engines": {
     "node": ">=10"
